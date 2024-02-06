@@ -3,5 +3,9 @@ fish = ["flounder", "sole", "blue cod", "snapper", "terakihi", "john dory", "red
 for thing in fish:
     print(thing[0])
 
+print("")
+
 for thing in fish:
-    print(thing[0])
+    print(thing[0:3])
+
+print("")
