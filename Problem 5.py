@@ -6,3 +6,4 @@ for number in range(len(numbers)):
 
 for number in numbers:
     print(number)
+
