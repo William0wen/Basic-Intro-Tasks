@@ -27,9 +27,12 @@ def select_your_bread():
         print(f"{bread_counter}.", {bread})
         bread_counter += 1
 
-        choice = input(">>> ")
-        bread_choice = bread_list.index(choice)
+    choice = input(">>> ")
+    bread_choice = bread_list.index(choice)
 
-        return bread_choice
+    return bread_choice
+
+
+select_your_bread()
 
 
