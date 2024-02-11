@@ -28,4 +28,8 @@ def select_your_bread():
         bread_counter += 1
 
         choice = input(">>> ")
-        bread_choice = bread_list[choice]
+        bread_choice = bread_list.index(choice)
+
+        return bread_choice
+
+
